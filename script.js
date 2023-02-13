@@ -43,14 +43,13 @@ fetch("./index.json")
     `
     <div class='mainContainer'>
         <div class='repoTitle'>
-            <img src='./${icon}' alt='${name}' />
+            <img src='./${icon}' alt='${name}' style="border-radius=25%;" />
             <h1>${name}</h1>
         </div>
         <div class='contentContainer'>
             <div class='content'>
                 <span>URL - <strong>${fullURL}</strong></span>
                 <span>Number of Emotes - <strong>${emotes.length}</strong></span>
-                <button id="addRepo" class='btn'>Add to <span>Nitroless</span></button>
             </div>
             <div class='content emotes'>
                 ${emotes.map((emote) => {

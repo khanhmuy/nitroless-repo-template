@@ -9,4 +9,4 @@ exports.author = 'Joe';
 //Add a Description here, useful for SEO and Web Crawlers, or sharing to social websites. Remove the line if you don't care about Sharing.
 exports.description = 'Example Description';
 //Add Keywords here, useful for SEO and Web Crawlers. Remove the line if you don't care about SEO/Web Crawlers.
-exports.keywords = 'Nitroless, nitroless, iOS, macOS, Android, Windows, Emotes, Discord, discord, Nitro, nitro';
+// Keywords removed. I don't want discord to find this.
